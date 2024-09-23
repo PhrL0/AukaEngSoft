@@ -1,3 +1,9 @@
 Pedro aqui
+<<<<<<< HEAD
 Larissa aqui
 Leonardo aqui
+=======
+Sophia aqui
+Larissa aqui
+
+>>>>>>> fbb26c2d7016828be1391de99834c700c594e37b
