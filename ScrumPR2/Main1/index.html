@@ -1,1 +1,30 @@
-ECHO est� ativado.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Alunos</title>
+    
+</head>
+<body>
+    <h1>Gerar Relatório de Alunos</h1>
+    <div class="container">
+        <form action="gerar_relatorio.html" method="POST">
+            <label for="nome">Nome do Aluno:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite o nome do aluno" required>
+
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso" name="curso" placeholder="Digite o curso" required>
+
+            <label for="matricula">Matrícula do Aluno:</label>
+            <input type="number" id="matricula" name="matricula" placeholder="Digite a matrícula do aluno" required>
+
+            <label for="telefone">Telefone Celular:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite o telefone celular" required>
+
+            <button type="submit">Gerar Relatório</button>
+        </form>
+    </div>
+</body>
+</html>
+
