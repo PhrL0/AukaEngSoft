@@ -4,6 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main 2</title>
+
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+        .caixaPrincipal {
+            padding: 20px;
+            border: 2px solid red;
+            background-color: white;
+        }
+        h1, h3 {
+            color: red;
+        }
+        input {
+            margin: 10px 0;
+            padding: 8px;
+            border: 1px solid red;
+            border-radius: 4px;
+        }
+        .botao {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .botao:hover {
+            background-color: darkred;
+        }
+    </style>
 </head>
 <body>
     <div class="caixaPrincipal">
@@ -17,15 +50,15 @@
             <input class="campoData"></input>
         </div>
         <div id="matricula">
-            <h3>Matrícula do aluno</h3>
+            <h3>Matrícula do aluno:</h3>
             <input class="campoMatricula"></input>
         </div>
         <div id="caixaDoRelatorio">
-            <h3>Relatório</h3>
+            <h3>Relatório:</h3>
             <input class="relatorioEscrito"></input>
         </div>
         <div id="assinatura">
-            <h3>Assinatura Digital</h3>
+            <h3>Assinatura Digital:</h3>
             <input class="campoAssinatura"></input>
         </div>
         <div id="botaoEnviar">
